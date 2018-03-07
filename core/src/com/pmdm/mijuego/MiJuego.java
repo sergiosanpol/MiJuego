@@ -1,25 +1,24 @@
+package com.pmdm.mijuego;
 
-		package com.pmdm.mijuego;
-
-		import com.badlogic.gdx.ApplicationAdapter;
-		import com.badlogic.gdx.ApplicationListener;
-		import com.badlogic.gdx.Gdx;
-		import com.badlogic.gdx.Input;
-		import com.badlogic.gdx.InputProcessor;
-		import com.badlogic.gdx.audio.Music;
-		import com.badlogic.gdx.audio.Sound;
-		import com.badlogic.gdx.graphics.GL20;
-		import com.badlogic.gdx.graphics.OrthographicCamera;
-		import com.badlogic.gdx.graphics.Texture;
-		import com.badlogic.gdx.graphics.g2d.Animation;
-		import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-		import com.badlogic.gdx.graphics.g2d.TextureRegion;
-		import com.badlogic.gdx.maps.tiled.TiledMap;
-		import com.badlogic.gdx.maps.tiled.TiledMapTileLayer;
-		import com.badlogic.gdx.maps.tiled.TmxMapLoader;
-		import com.badlogic.gdx.maps.tiled.renderers.OrthogonalTiledMapRenderer;
-		import com.badlogic.gdx.math.MathUtils;
-		import com.badlogic.gdx.math.Vector3;
+import com.badlogic.gdx.ApplicationAdapter;
+import com.badlogic.gdx.ApplicationListener;
+import com.badlogic.gdx.Gdx;
+import com.badlogic.gdx.Input;
+import com.badlogic.gdx.InputProcessor;
+import com.badlogic.gdx.audio.Music;
+import com.badlogic.gdx.audio.Sound;
+import com.badlogic.gdx.graphics.GL20;
+import com.badlogic.gdx.graphics.OrthographicCamera;
+import com.badlogic.gdx.graphics.Texture;
+import com.badlogic.gdx.graphics.g2d.Animation;
+import com.badlogic.gdx.graphics.g2d.SpriteBatch;
+import com.badlogic.gdx.graphics.g2d.TextureRegion;
+import com.badlogic.gdx.maps.tiled.TiledMap;
+import com.badlogic.gdx.maps.tiled.TiledMapTileLayer;
+import com.badlogic.gdx.maps.tiled.TmxMapLoader;
+import com.badlogic.gdx.maps.tiled.renderers.OrthogonalTiledMapRenderer;
+import com.badlogic.gdx.math.MathUtils;
+import com.badlogic.gdx.math.Vector3;
 
 public class MiJuego extends ApplicationAdapter implements InputProcessor, ApplicationListener {
 
@@ -580,10 +579,9 @@ public class MiJuego extends ApplicationAdapter implements InputProcessor, Appli
 
 	/**
 	 * Método que permite cambiar las coordenadas del NPC en la posición "i",
-	 * dada una variación "delta" en ambas coordenadas.
-	 *
-	 * @param i Entero de posición.
-	 * @param delta Variación delta.
+	 * dada una variación "delta" en ambas coordenadas
+	 * @param
+	 * @param
 	 */
 	private void moverNPC(int i, float delta) {
 
